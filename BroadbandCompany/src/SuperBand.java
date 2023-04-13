@@ -29,7 +29,7 @@ public class SuperBand {
                     countPackageB++;
                 }
             
-            System.out.print("Enter Total Internet use (in MB) : ");
+            System.out.print("Enter Total Internet used (in MB) : ");
             int dataUsed = in.nextInt();
             double charge = calCharge(packageType, dataUsed); //calc charge
             System.out.printf("Total charge is RM%.2f%n", charge);
